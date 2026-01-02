@@ -26,6 +26,7 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 - Power Blow
 ## Advantages
 - Weapon Master (Staff)
+- Staff compartmentalized mind no longer just for sorcery
 ### Magical Abilities
 - Enhanced time sense
 ### Spells

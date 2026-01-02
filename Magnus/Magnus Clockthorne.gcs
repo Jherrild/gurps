@@ -2178,47 +2178,48 @@
 							],
 							"modifiers": [
 								{
-									"id": "mtJNflKMbpJYgrzQZ",
+									"id": "mTC1jSECTZqn2izYW",
 									"name": "Magic",
 									"reference": "TSOR4",
 									"vtt_notes": "Increased cost from 15 to 20 percent because \"Costs fatigue\" has a higher value in our campaign",
 									"cost_adj": "-10%"
 								},
 								{
-									"id": "mqVQovriHSiqX5V9n",
+									"id": "mGasd4YwnEEVhud4Q",
 									"name": "Limited, Sorcery",
 									"reference": "TSOR8",
 									"local_notes": "Thaumatology - Sorcery, page 8",
-									"cost_adj": "-10%"
+									"cost_adj": "-10%",
+									"disabled": true
 								},
 								{
-									"id": "mau02C12Qr9xCA8kw",
+									"id": "mKaX-aHcnuNbFF613",
 									"name": "No Mental Separation",
 									"reference": "PSI14",
 									"cost_adj": "-20%"
 								},
 								{
-									"id": "mZvH4TW13v1B_r9kY",
+									"id": "mboRVaFX_l-KgEJIy",
 									"name": "Visible",
 									"reference": "PU8:19",
 									"cost_adj": "-10%"
 								},
 								{
-									"id": "mfQ_U-TIZsy_JU4-J",
+									"id": "mzBkPwVZRbwostuyx",
 									"name": "Can be Stolen",
 									"reference": "B117",
 									"local_notes": "Quick contest of strength",
 									"cost_adj": "-15%"
 								},
 								{
-									"id": "mT5JnkSs4oT9LXT0q",
+									"id": "moGmzkdXCsb28M3U9",
 									"name": "Massively Parallel",
 									"reference": "SU26",
 									"cost_adj": "20%",
 									"disabled": true
 								},
 								{
-									"id": "mOcE_m5o8Dx_f2nUU",
+									"id": "mXlKzBeT9SUWi5dOz",
 									"name": "Controls",
 									"reference": "B43",
 									"cost_adj": "-25",
@@ -2226,7 +2227,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mJtnzPoNxqToEBztd",
+									"id": "mYUdt0CkraZiFv5kF",
 									"name": "Dedicated Controls",
 									"reference": "B43",
 									"cost_adj": "-40",
@@ -2234,7 +2235,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mryL4HqLA3RSb_IIu",
+									"id": "mqRVxkylZBA5ShZwz",
 									"name": "Limited, One Ability",
 									"reference": "PSI13",
 									"local_notes": "Telekinesis",
@@ -2242,7 +2243,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mcnVkkeC3U3y2u8zx",
+									"id": "mZ_ahPcpjVfbOUmzH",
 									"name": "Limited, One Power",
 									"reference": "PSI13",
 									"local_notes": "@Power@",
@@ -2250,21 +2251,21 @@
 									"disabled": true
 								},
 								{
-									"id": "madlv6RaTNNS4Ylgg",
+									"id": "m21mcAq_uG3WYeper",
 									"name": "Mental Separation Only",
 									"reference": "PSI13",
 									"cost_adj": "-80%",
 									"disabled": true
 								},
 								{
-									"id": "mPLb6CwLifWs9ILEk",
+									"id": "mnf5Yfu3QkA7C1vKV",
 									"name": "Mentalism",
 									"reference": "PSI14",
 									"cost_adj": "-10%",
 									"disabled": true
 								},
 								{
-									"id": "m30xAKvTmWcIlVA2X",
+									"id": "mAA3DMxl9XHyZ4b0q",
 									"name": "Power Modifier",
 									"reference": "P27",
 									"local_notes": "Magical",
@@ -2276,7 +2277,7 @@
 							"can_level": true,
 							"levels": 1,
 							"calc": {
-								"points": 18,
+								"points": 23,
 								"current_level": 1
 							}
 						},
@@ -2367,12 +2368,12 @@
 						}
 					],
 					"calc": {
-						"points": 25
+						"points": 30
 					}
 				}
 			],
 			"calc": {
-				"points": 25
+				"points": 30
 			}
 		},
 		{
@@ -8421,7 +8422,7 @@
 		}
 	],
 	"created_date": "2024-08-04T12:10:41-07:00",
-	"modified_date": "2026-01-02T12:56:24-08:00",
+	"modified_date": "2026-01-02T13:09:32-08:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
