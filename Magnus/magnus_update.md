@@ -28,7 +28,11 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 ### Magical Abilities
 - Enhanced time sense
 ### Spells
-- Added regeneration spells for Energy/Luck instead of the standard ER rules, which allow ER to just regenerate in the background, and require that we know how much time has passed. Let me know what you think of these, I'm happy to fuck with them.
+- Updated Haste to give:
+	- smaller move speed bonus
+	- +1 attack
+	- +1 to dodge
+- Added regeneration spells for Energy/Luck ***INSTEAD*** of the standard ER rules, which allow ER to just regenerate in the background, because I know that was cumbersome. With the default rules, it requires that we know how much time has passed- with the updated, regenerating ER is like regenerating FP, and has to be done during a short break. Let me know what you think of these, I'm happy to fuck with them.
 - Temporis Fractus (Fractured Time)
 ```
 Allows the caster to freeze time in their immediate surroundings for the purpose of travel.
