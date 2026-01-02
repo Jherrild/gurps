@@ -19,21 +19,25 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 - Due to increases in Will, intimidation became by far my best influence skill. This is due to people seeing in him, very quickly, that his motivations are such that he will stop at nothing to do what he feels is right. People feel that he WILL endanger his own life if he thinks its necessary.
 ### Worked on
 - Staff
-- Brawling
+- Karate (Trained points from Brawling to Karate via training with Marcello)
 ### Learned
 - Precognitive Parry
+- Sensitivity
 - Power Blow
 ## Advantages
-- Weapon Master
+- Weapon Master (Staff)
 ### Magical Abilities
 - Enhanced time sense
 ### Spells
-- Updated Haste to give:
-	- smaller move speed bonus
-	- +1 attack
-	- +1 to dodge
-- Added regeneration spells for Energy/Luck ***INSTEAD*** of the standard ER rules, which allow ER to just regenerate in the background, because I know that was cumbersome. With the default rules, it requires that we know how much time has passed- with the updated, regenerating ER is like regenerating FP, and has to be done during a short break. Let me know what you think of these, I'm happy to fuck with them.
-- Temporis Fractus (Fractured Time)
+- Updated/Balance
+	- Added regeneration spells for Energy/Luck ***INSTEAD*** of the standard ER rules, which allow ER to just regenerate in the background, because I know that was cumbersome. With the default rules, it requires that we know how much time has passed- with the updated, regenerating ER is like regenerating FP, and has to be done during a short break. Let me know what you think of these, I'm happy to fuck with them.
+	- Time Slip now has Melee range 2 and destructive parry, to allow use with staff
+	- Haste now gives:
+		- +2 to basic move
+		- +1 attack
+		- +1 to dodge
+- NEW
+	- Temporis Fractus (Fractured Time)
 ```
 Allows the caster to freeze time in their immediate surroundings for the purpose of travel.
 
