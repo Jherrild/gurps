@@ -14,7 +14,8 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 
 ## Trainings
 - Marcello
-- Defensive Mastery
+- Priya Shan
+- Mental Mastery
 ## Skills
 - Due to increases in Will, intimidation became by far my best influence skill. This is due to people seeing in him, very quickly, that his motivations are such that he will stop at nothing to do what he feels is right. People feel that he WILL endanger his own life if he thinks its necessary.
 ### Worked on
@@ -24,9 +25,9 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 - Precognitive Parry
 - Sensitivity
 - Power Blow
+- Criminology
 ## Advantages
 - Weapon Master (Staff)
-- Staff compartmentalized mind no longer just for sorcery
 ### Magical Abilities
 - Enhanced time sense
 ### Spells

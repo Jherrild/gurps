@@ -528,7 +528,7 @@
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
-				"value": 17,
+				"value": 18,
 				"points": 0
 			}
 		},
@@ -536,7 +536,7 @@
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 19,
+				"value": 20,
 				"points": 0
 			}
 		},
@@ -544,7 +544,7 @@
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 15,
+				"value": 16,
 				"points": 0
 			}
 		},
@@ -552,7 +552,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 15,
+				"value": 16,
 				"points": 0
 			}
 		},
@@ -560,7 +560,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 15,
+				"value": 16,
 				"points": 0
 			}
 		},
@@ -568,7 +568,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 15,
+				"value": 16,
 				"points": 0
 			}
 		},
@@ -576,7 +576,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 15,
+				"value": 16,
 				"points": 0
 			}
 		},
@@ -676,7 +676,7 @@
 					"calc": {
 						"level": 16,
 						"damage": "1d-2 cr",
-						"parry": "13"
+						"parry": "12"
 					}
 				},
 				{
@@ -1239,6 +1239,30 @@
 							"calc": {
 								"points": 0
 							}
+						},
+						{
+							"id": "tK1rXc_8yxVEW_G0Q",
+							"name": "Priya Shan Training",
+							"local_notes": "Grants access to contact group: Beacon City Special Investigation Unit",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": 1
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Fast-Talk"
+									},
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 0
+							}
 						}
 					],
 					"calc": {
@@ -1281,37 +1305,6 @@
 							}
 						},
 						{
-							"id": "tEiUDzDpWqMsmAXjh",
-							"name": "Defensive Mastery",
-							"reference": "B51,MA43",
-							"local_notes": "Enhanced Parry (Brawling)",
-							"tags": [
-								"Advantage",
-								"Mental"
-							],
-							"features": [
-								{
-									"type": "weapon_parry_bonus",
-									"selection_type": "weapons_with_required_skill",
-									"name": {
-										"compare": "is",
-										"qualifier": "Brawling"
-									},
-									"level": {
-										"compare": "at_least"
-									},
-									"amount": 1,
-									"leveled": true
-								}
-							],
-							"can_level": true,
-							"levels": 1,
-							"calc": {
-								"points": 0,
-								"current_level": 1
-							}
-						},
-						{
 							"id": "tCND1tM-3xDhCpBqQ",
 							"name": "Energy Conservation",
 							"features": [
@@ -1327,6 +1320,20 @@
 							"calc": {
 								"points": 0,
 								"current_level": 2
+							}
+						},
+						{
+							"id": "te5SJKsU0PdiFVStV",
+							"name": "Mental Mastery",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 0
 							}
 						},
 						{
@@ -6400,12 +6407,12 @@
 					"defaulted_from": {
 						"type": "will",
 						"modifier": -5,
-						"level": 12,
-						"adjusted_level": 12,
-						"points": -12
+						"level": 13,
+						"adjusted_level": 13,
+						"points": -13
 					},
 					"calc": {
-						"level": 17,
+						"level": 18,
 						"rsl": "Will+0"
 					}
 				},
@@ -6508,6 +6515,41 @@
 					}
 				},
 				{
+					"id": "sSQHpug7B1HkmXtiY",
+					"name": "Fast-Talk",
+					"reference": "B195",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					],
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 10,
+						"adjusted_level": 10,
+						"points": -10
+					},
+					"calc": {
+						"level": 16,
+						"rsl": "IQ+1"
+					}
+				},
+				{
 					"id": "s_iVRAq5gf9yfqQpT",
 					"name": "Public Speaking",
 					"reference": "B216",
@@ -6535,41 +6577,6 @@
 						{
 							"type": "skill",
 							"name": "Politics",
-							"modifier": -5
-						}
-					],
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 10,
-						"adjusted_level": 10,
-						"points": -10
-					},
-					"calc": {
-						"level": 15,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "sSQHpug7B1HkmXtiY",
-					"name": "Fast-Talk",
-					"reference": "B195",
-					"tags": [
-						"Criminal",
-						"Social",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": "Acting",
 							"modifier": -5
 						}
 					],
@@ -6732,12 +6739,12 @@
 					"defaulted_from": {
 						"type": "per",
 						"modifier": -5,
-						"level": 10,
-						"adjusted_level": 10,
-						"points": -10
+						"level": 11,
+						"adjusted_level": 11,
+						"points": -11
 					},
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "Per-1"
 					}
 				},
@@ -6768,12 +6775,75 @@
 					"defaulted_from": {
 						"type": "per",
 						"modifier": -5,
+						"level": 11,
+						"adjusted_level": 11,
+						"points": -11
+					},
+					"calc": {
+						"level": 15,
+						"rsl": "Per-1"
+					}
+				},
+				{
+					"id": "s5Drs5a_5LATEu6f6",
+					"name": "Body Language",
+					"reference": "B181",
+					"tags": [
+						"Police",
+						"Social",
+						"Spy"
+					],
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Detect Lies",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "skill",
+						"name": "Psychology",
+						"modifier": -4,
 						"level": 10,
 						"adjusted_level": 10,
 						"points": -10
 					},
 					"calc": {
-						"level": 14,
+						"level": 15,
+						"rsl": "Per-1"
+					}
+				},
+				{
+					"id": "sUcXBYf4slaM5j6Bh",
+					"name": "Lip Reading",
+					"reference": "B205",
+					"tags": [
+						"Spy"
+					],
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -10
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "per",
+						"modifier": -10,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"calc": {
+						"level": 15,
 						"rsl": "Per-1"
 					}
 				},
@@ -6880,69 +6950,6 @@
 						"level": 14,
 						"rsl": "IQ-1"
 					}
-				},
-				{
-					"id": "s5Drs5a_5LATEu6f6",
-					"name": "Body Language",
-					"reference": "B181",
-					"tags": [
-						"Police",
-						"Social",
-						"Spy"
-					],
-					"difficulty": "per/a",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Detect Lies",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Psychology",
-							"modifier": -4
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "skill",
-						"name": "Psychology",
-						"modifier": -4,
-						"level": 10,
-						"adjusted_level": 10,
-						"points": -10
-					},
-					"calc": {
-						"level": 14,
-						"rsl": "Per-1"
-					}
-				},
-				{
-					"id": "sUcXBYf4slaM5j6Bh",
-					"name": "Lip Reading",
-					"reference": "B205",
-					"tags": [
-						"Spy"
-					],
-					"difficulty": "per/a",
-					"defaults": [
-						{
-							"type": "per",
-							"modifier": -10
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "per",
-						"modifier": -10,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
-					"calc": {
-						"level": 14,
-						"rsl": "Per-1"
-					}
 				}
 			]
 		},
@@ -6960,6 +6967,46 @@
 					"specialization": "Otherside",
 					"difficulty": "iq/a",
 					"points": 2,
+					"calc": {
+						"level": 15,
+						"rsl": "IQ+0"
+					}
+				},
+				{
+					"id": "s732C8ywB7EDc3Nh-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sIGKW56ym8J0wKfjg"
+					},
+					"name": "Criminology",
+					"reference": "B186",
+					"tags": [
+						"Humanities",
+						"Police",
+						"Social Sciences"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"tech_level": "3",
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 10,
+						"adjusted_level": 10,
+						"points": -10
+					},
 					"calc": {
 						"level": 15,
 						"rsl": "IQ+0"
@@ -7221,17 +7268,17 @@
 							"modifier": -5
 						}
 					],
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "will",
 						"modifier": -5,
-						"level": 12,
-						"adjusted_level": 12,
-						"points": -12
+						"level": 13,
+						"adjusted_level": 13,
+						"points": -13
 					},
 					"calc": {
-						"level": 16,
-						"rsl": "Will-1"
+						"level": 18,
+						"rsl": "Will+0"
 					}
 				},
 				{
@@ -7281,12 +7328,12 @@
 					"defaulted_from": {
 						"type": "per",
 						"modifier": -6,
-						"level": 9,
-						"adjusted_level": 9,
-						"points": -9
+						"level": 10,
+						"adjusted_level": 10,
+						"points": -10
 					},
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "Per-1"
 					}
 				},
@@ -7465,8 +7512,69 @@
 					},
 					"points": 2,
 					"calc": {
-						"level": 16,
+						"level": 17,
 						"rsl": "Will-1"
+					}
+				},
+				{
+					"id": "sludmWoTUdzKZ7gD3",
+					"name": "Blind Fighting",
+					"reference": "B180,MA54",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "per/vh",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "weapon master"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Hero Class: Augmenter"
+								}
+							}
+						]
+					},
+					"points": 4,
+					"calc": {
+						"level": 16,
+						"rsl": "Per+0"
+					}
+				},
+				{
+					"id": "sIqRZDExtv3cCHF47",
+					"name": "Pressure Points",
+					"reference": "B215,MA58",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "iq/h",
+					"points": 2,
+					"calc": {
+						"level": 15,
+						"rsl": "IQ+0"
 					}
 				},
 				{
@@ -7554,67 +7662,6 @@
 					}
 				},
 				{
-					"id": "sludmWoTUdzKZ7gD3",
-					"name": "Blind Fighting",
-					"reference": "B180,MA54",
-					"tags": [
-						"Esoteric"
-					],
-					"difficulty": "per/vh",
-					"prereqs": {
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "trait_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "trained by a master"
-								},
-								"level": {
-									"compare": "at_least"
-								}
-							},
-							{
-								"type": "trait_prereq",
-								"has": true,
-								"name": {
-									"compare": "starts_with",
-									"qualifier": "weapon master"
-								}
-							},
-							{
-								"type": "trait_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Hero Class: Augmenter"
-								}
-							}
-						]
-					},
-					"points": 4,
-					"calc": {
-						"level": 15,
-						"rsl": "Per+0"
-					}
-				},
-				{
-					"id": "sIqRZDExtv3cCHF47",
-					"name": "Pressure Points",
-					"reference": "B215,MA58",
-					"tags": [
-						"Esoteric"
-					],
-					"difficulty": "iq/h",
-					"points": 2,
-					"calc": {
-						"level": 15,
-						"rsl": "IQ+0"
-					}
-				},
-				{
 					"id": "sV6Ddp9p--Qpi7fMP",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -7657,7 +7704,7 @@
 					},
 					"points": 2,
 					"calc": {
-						"level": 13,
+						"level": 14,
 						"rsl": "Per-2"
 					}
 				},
@@ -7807,9 +7854,9 @@
 					"defaulted_from": {
 						"type": "skill",
 						"name": "Esoteric Medicine",
-						"level": 14,
-						"adjusted_level": 14,
-						"points": -14
+						"level": 15,
+						"adjusted_level": 15,
+						"points": 1
 					},
 					"calc": {
 						"level": 18,
@@ -8408,7 +8455,7 @@
 		}
 	],
 	"created_date": "2024-08-04T12:10:41-07:00",
-	"modified_date": "2026-01-02T17:01:25-08:00",
+	"modified_date": "2026-01-02T18:13:35-08:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
