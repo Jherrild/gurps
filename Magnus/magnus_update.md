@@ -19,7 +19,7 @@ Magnus trains at these things single mindedly for several weeks, and is notably 
 - Due to increases in Will, intimidation became by far my best influence skill. This is due to people seeing in him, very quickly, that his motivations are such that he will stop at nothing to do what he feels is right. People feel that he WILL endanger his own life if he thinks its necessary.
 ### Worked on
 - Staff
-- Karate (Trained points from Brawling to Karate via training with Marcello)
+- Brawling (+1 point from Marcello)
 ### Learned
 - Precognitive Parry
 - Sensitivity

@@ -641,8 +641,8 @@
 						}
 					],
 					"calc": {
-						"level": 11,
-						"damage": "1d-3 cr"
+						"level": 16,
+						"damage": "1d-2 cr"
 					}
 				},
 				{
@@ -674,9 +674,9 @@
 						}
 					],
 					"calc": {
-						"level": 14,
-						"damage": "1d-1 cr",
-						"parry": "11"
+						"level": 16,
+						"damage": "1d-2 cr",
+						"parry": "13"
 					}
 				},
 				{
@@ -709,8 +709,8 @@
 						}
 					],
 					"calc": {
-						"level": 12,
-						"damage": "1d cr"
+						"level": 14,
+						"damage": "1d-1 cr"
 					}
 				}
 			],
@@ -1284,7 +1284,7 @@
 							"id": "tEiUDzDpWqMsmAXjh",
 							"name": "Defensive Mastery",
 							"reference": "B51,MA43",
-							"local_notes": "Enhanced Parry (Quarterstaff)",
+							"local_notes": "Enhanced Parry (Brawling)",
 							"tags": [
 								"Advantage",
 								"Mental"
@@ -7378,7 +7378,7 @@
 							"modifier": -2
 						}
 					],
-					"points": 36,
+					"points": 28,
 					"defaulted_from": {
 						"type": "dx",
 						"modifier": -5,
@@ -7387,50 +7387,36 @@
 						"points": -6
 					},
 					"calc": {
-						"level": 20,
-						"rsl": "DX+9"
+						"level": 18,
+						"rsl": "DX+7"
 					}
 				},
 				{
-					"id": "slM_Ylx-zAYrMi6XU",
+					"id": "sGH0zqlBqLfRsH0kP",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "skWMDU0W5mmeuyvBU"
+						"id": "sJb1BLcTwMP-uWmTn"
 					},
-					"name": "Karate",
-					"reference": "B203,MA57",
+					"name": "Brawling",
+					"reference": "B182,MA55",
 					"tags": [
 						"Combat",
 						"Melee Combat",
 						"Weapon"
 					],
-					"difficulty": "dx/h",
-					"encumbrance_penalty_multiplier": 1,
+					"difficulty": "dx/e",
 					"features": [
 						{
 							"type": "weapon_bonus",
 							"selection_type": "weapons_with_required_skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "Karate"
-							},
-							"level": {
-								"compare": "at_least"
-							},
-							"amount": 1,
-							"per_die": true
-						},
-						{
-							"type": "weapon_bonus",
-							"selection_type": "weapons_with_required_skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Karate"
+								"qualifier": "Brawling"
 							},
 							"level": {
 								"compare": "at_least",
-								"qualifier": 1
+								"qualifier": 2
 							},
 							"amount": 1,
 							"per_die": true
@@ -7438,8 +7424,8 @@
 					],
 					"points": 12,
 					"calc": {
-						"level": 14,
-						"rsl": "DX+3"
+						"level": 16,
+						"rsl": "DX+5"
 					}
 				},
 				{
@@ -8255,9 +8241,9 @@
 						}
 					],
 					"calc": {
-						"level": 21,
+						"level": 19,
 						"damage": "1d+3 cr",
-						"parry": "17"
+						"parry": "16"
 					}
 				},
 				{
@@ -8294,9 +8280,9 @@
 						}
 					],
 					"calc": {
-						"level": 21,
+						"level": 19,
 						"damage": "1d+2 cr",
-						"parry": "17"
+						"parry": "16"
 					}
 				}
 			],
@@ -8422,7 +8408,7 @@
 		}
 	],
 	"created_date": "2024-08-04T12:10:41-07:00",
-	"modified_date": "2026-01-02T13:09:32-08:00",
+	"modified_date": "2026-01-02T17:01:25-08:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
